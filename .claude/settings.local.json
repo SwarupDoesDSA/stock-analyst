@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Whenevver there is a folder creation invoked ask for permissions"
+    ]
+  }
+}

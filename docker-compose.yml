@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: stock-analyst-web
+    restart: always
+    networks:
+      - stock-network
+
+  ngrok:
+    image: ngrok/ngrok:latest
+    container_name: stock-analyst-ngrok
+    restart: always
+    environment:
+      - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
+    command:
+      - "http"
+      - "web:80"
+    depends_on:
+      - web
+    networks:
+      - stock-network
+
+networks:
+  stock-network:
+    driver: bridge

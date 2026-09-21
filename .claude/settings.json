@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "FileChanged": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"systemMessage\": \"Reviewing changes...\"}' && SendMessage({to: \"code-reviewer\", message: \"Please review the changes in the file that just changed: {{file}}\" })",
+            "statusMessage": "Code Reviewer is analyzing changes..."
+          }
+        ]
+      }
+    ]
+  }
+}

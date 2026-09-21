@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "AUROPHARMA",
+    "name": "Aurobindo Pharma Ltd",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals",
+    "marketCap": "50000 Cr",
+    "pe": 15.4
+  },
+  {
+    "symbol": "POLYCAB",
+    "name": "Polycab India Ltd",
+    "sector": "Industrials",
+    "industry": "Electrical Equipment",
+    "marketCap": "80000 Cr",
+    "pe": 32.1
+  },
+  {
+    "symbol": "TATAELXSI",
+    "name": "Tata Elxsi Ltd",
+    "sector": "Technology",
+    "industry": "Software Services",
+    "marketCap": "60000 Cr",
+    "pe": 45.8
+  },
+  {
+    "symbol": "MAXHEALTH",
+    "name": "Max Healthcare Institute Ltd",
+    "sector": "Healthcare",
+    "industry": "Hospitals",
+    "marketCap": "90000 Cr",
+    "pe": 68.2
+  },
+  {
+    "symbol": "PERSISTENT",
+    "name": "Persistent Systems Ltd",
+    "sector": "Technology",
+    "industry": "Software Services",
+    "marketCap": "70000 Cr",
+    "pe": 38.5
+  }
+]
